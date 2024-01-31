@@ -1,0 +1,20 @@
+{
+  "name": "mentor-api",
+  "version": "1.0.0",
+  "description": "The Mentor-Student  Management API simplifies mentor-student relationship administration with features for CRUD operations.",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "start": "node index.js",
+    "test": "jest"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.1",
+    "express": "^4.18.2",
+    "mongoos": "^0.0.1-security",
+    "mongoose": "^8.1.1"
+  }
+}
